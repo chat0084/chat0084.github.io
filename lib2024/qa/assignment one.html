@@ -4,21 +4,21 @@
 		<title>My Favourite Movie: Goncharov</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="assignment one">
+		<meta name="description" content="Assignment One for the class LIB2024 Internet applications about building a simple HTML page about my favourite movie">
 		<meta name="author" content="Grey Chattaway">
-		<meta name="keywords" content="html, my first page, my favourite movie, fake movie, tumblr memes">
+		<meta name="keywords" content="html, my first page, my favourite movie, fake movie, tumblr memes, goncharov, martin scorsese, robert de niro, cybill shepherd, harvey keitel, gene hackman, john cazale, sophia loren, al pacino, russian mafia, movies set in naples">
 		<link rel="icon" type="image/x-icon" href="icons/gun.png">
 	</head>
 	<body>
 		<header>
 		<img src="images/goncharovposter.png" alt="Goncharov Poster" width="271" height="369">
-		<h1>Goncharov (1973)</h1>
-		</header>	
+		<h1 id="mainheading">My Favourite Movie: Goncharov (1973)</h1>
+		</header>
 		<section>
-		<h2>The Greatest Mafia Movie Ever Made</h2>
-		<p>Produced by Martin Scorsese in 1973, <i>Goncharov</i> follows Robert De Niro as the titular character, who is a Russian hitman and former discotheque mmanager, and his wife Katya. They cannot escape the connection they have with each other, or the connections they each have with Andrey and Sophie. <i>Goncharov</i> is a story of love, murder, and betrayal... All set to the beautiful backdrop of Naples.</p>
+		<h2 id="tagline">The Greatest Mafia Movie Ever Made</h2>
+		<p id="plot-summary">Produced by Martin Scorsese in 1973, <cite>Goncharov</cite> follows Robert De Niro as the titular character, who is a Russian hitman and former discotheque mmanager, and his wife Katya. They cannot escape the connection they have with each other, or the connections they each have with Andrey and Sophie. <cite>Goncharov</cite> is a story of love, murder, and betrayal... All set to the beautiful backdrop of Naples.</p>
 		</section>
-		<section>
+		<section id="cast">
 		<h3>Cast List:</h3>
 			<ul>
 				<li><b>Robert De Niro</b> as Lo Straniero/Goncharov</li>
@@ -31,22 +31,20 @@
 				<li><b>Patchka the Cat</b> as himself</li>
 			</ul>
 		</section>
-		<section>		
-			<h3>My Favourite Quote:</h3>
+		<section id="quote">		
+		<h3>My Favourite Quote:</h3>
 			<p><i><q>Tell Andrey I send my regards.</q></i><br>-Goncharov</p>
 		</section>
-		<section>
+		<section id="my-ratings">
 		<h3>Ratings</h3>
-			<p>Story: <progress value="5" max="5"></progress></p>
-			<p>Cast: <progress value="4" max="5"></progress></p>
-			<p>Ending: <progress value="4" max="5"></progress></p>
+			<p class="ratings">Story: <progress value="5" max="5"></progress></p>
+			<p class="ratings">Cast: <progress value="4" max="5"></progress></p>
+			<p class="ratings">Ending: <progress value="4" max="5"></progress></p>
 		</section>
 		<footer>
-			<nav>
-			<p><mark>Note: This is not a real movie! More information about <i>Goncharov</i>'s history can be found <a href="https://en.wikipedia.org/wiki/Goncharov_(meme)" target="_blank">here</a>.</mark></p>
+			<p><mark>Note: This is not a real movie! More information about <cite>Goncharov</cite>'s history can be found <a href="https://en.wikipedia.org/wiki/Goncharov_(meme)" target="_blank">here</a>.</mark></p>
 			<!-- My actual favourite movie changes a lot but Goncharov was a really neat experience - hundreds of people working collectively to make up a movie and commit to the bit. -->
-			</nav>
-			<p> x G.C. 2023-02-04 x</p>
+			<p id="signature"> x G.C. 2023-02-04 x</p>
 		</footer>
 	</body>
 </html>
