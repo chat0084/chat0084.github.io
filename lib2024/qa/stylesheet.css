@@ -1,7 +1,5 @@
 
 body {
-  /*background: rgb(8,3,0);
-  background: linear-gradient(0deg, rgba(8,3,0,1) 0%, rgba(245,206,123,1) 100%);*/
   background-image: url("images/background.png");
   font-family: Garamond, serif;
 }
@@ -12,7 +10,6 @@ Header {
   border: 5px solid black;
   background: white;
   border-spacing: 10px;
-  position: center;
   display: flex;
 }
 h1 {
@@ -132,7 +129,6 @@ p {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  position: center;
 }
 
 .line {
