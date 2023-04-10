@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <link rel="stylesheet" href="style.css" />
+    <title>Temperature Converter Page</title>
+  </head>
+  <body>
+	   <br>
+     <br>  
+     <br>
+     <br>
+       <br>
+     <br>
+  	<div class="container">
+  		<div class="Thermometer">
+  			<img class="image" src="images/therm.png" alt="Thermometer" width="160" height="160">
+  		</div>
+  		<div class="converter">
+    		<form id="tempCalc" onsubmit="calculateTemp(); return false">
+   			<label for="temp">Please enter a temperature:</label> <br>
+   			<input name="temp" id="temp" type="number"> 
+   			<select name="temp_diff" id="temp_diff">
+      		<option value="1">°Celsius</option>
+      		<option value="2">°Fahrenheit</option>
+   			</select> <br>
+   			<input name="temp" type="submit"> <br>
+   			<span id="resultContainer"></span>
+			</form>
+		</div>
+    <script src="script.js"></script>
+  </body>
+</html>
