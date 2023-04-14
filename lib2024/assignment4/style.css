@@ -7,11 +7,6 @@ body {
    background-image: url("images/lines.png")
 }
 
-header {
-  overflow: hidden;
-  background: lightsteelblue;
-}
-
 form {
    padding: 10px;
    width: 75%;

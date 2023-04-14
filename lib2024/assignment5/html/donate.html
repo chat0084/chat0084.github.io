@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../images/face.png"> 
+    <link rel="stylesheet" href="../css/donate.css" />
+    <title>Donate</title>
+  </head>
+<body></body>
+    <header>
+  <!-- nav bar  -->
+    <div class="topnav" id="myTopnav">
+      <a href="../html/main.html">Home</a>
+      <a href="../html/about.html">About</a>
+      <a href="../html/photos.html">Photos</a>
+      <a href="../html/testimonials.html">Testimonials</a>
+      <a href="../html/donate.html" class="active">Donate</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+     <i class="fa fa-bars"></i>
+    </a>
+    </div>
+  </header>
+
+<!-- Title -->
+<h1>Give me Money</h1>
+<p>I don't need it. But I want it. </p>
+
+<!-- Donate Form -->
+<div class="donation-container">
+            
+            <div class="donation-box">
+              <div class="title">Donation Information</div>
+              
+              <div class="fields">
+                <input type="text" id="firstName" placeholder="First Name"> </input>
+                <input type="text" id="lastName" placeholder="Last Name"> </input>
+                <input type="text" id="email" placeholder="Email"> </input>
+              </div>
+              
+              <div class="amount">
+                <div class="button">$30</div>
+                <div class="button">$50</div>
+                <div class="button">$100</div>
+                <div class="button">$<input type="text" class="set-amount" placeholder=""> </input></div>
+              </div>
+              
+              <div class="switch">
+          <input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+          <label for="one-time" class="switch-label switch-label-off">One-Time</label>
+          <input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+          <label for="monthly" class="switch-label switch-label-on">Monthly</label>
+          <span class="switch-selection"></span>
+          </div>
+          
+          <div class="checkboxes">
+          <input type="checkbox" id="receipt" class="checkbox" />
+          <label for="receipt">Email Me A Receipt</label>
+          <br />
+          <input type="checkbox" id="anon" class="checkbox" />
+          <label for="anon">Give Anonymously</label>
+          <br />
+          <input type="checkbox" id="list" class="checkbox" />
+          <label for="list">Add Me To Email List</label>
+          </div>
+          
+          <div class="confirm">
+            
+          </div>
+              
+              <div class="donate-button"><i class="fa fa-credit-card"></i> Donate Now</div>
+            </div>
+            
+        </div>
+
+    <script src="../js/donate.js"></script>
+</body>
+  </html>
