@@ -24,8 +24,13 @@ function calculateTemperature() {
       newUnit = "°Fahrenheit";
    } else {
       result = fahrenheitToCelsius(temperature);
-      newUnit = "°Celsius"
+      newUnit = "°Celsius";
    }
    document.getElementById("resultContainer").innerHTML = "= " + result + newUnit;
-
 }
+
+
+
+
+
+

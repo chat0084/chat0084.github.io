@@ -1,12 +1,3 @@
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-
 //Donation form
 
 var firstName = "";
@@ -19,16 +10,7 @@ var firstName = "";
     var amount = "";
     
     $('.set-amount').autoGrow(0);
-    
-    /*
-      if(isiPad || jQuery.browser.mobile){
-        $('#team').hide()
-        $('.team-mobile').show(); 
-      }else{
-        $('#team').show()
-        $('.team-mobile').hide();
-      }
-    */
+
     
     //Set & Highlight Donation Amount
     $(".button").click(function(){
@@ -49,8 +31,7 @@ var firstName = "";
     
     
     $("input").on("change", function(){
-      // $(".donation-box").css("height", "500px");
-      
+    
       firstName = $("#firstName").val();
       lastName = $("#lastName").val();
       email = $("#email").val();
