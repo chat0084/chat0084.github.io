@@ -18,7 +18,7 @@ form {
    font-size: 30px;
 }
 
-#temp {
+#temperatureInput {
    border: none;
    padding: 10px;
    height: 40px;
@@ -27,7 +27,7 @@ form {
    margin-top: 20px;
 }
 
-#temp_diff {
+#unitSelection {
    height: 40px;
    border: none;
    margin-top: 20px;
@@ -62,6 +62,15 @@ form {
   margin-right: auto;
   border: 2px solid black;
 } 
+
+/* children */
+.title{
+   width: 600px;
+   background-color: navy;
+   text-align: center;
+   color: floralwhite;
+   text-transform: uppercase;
+}
 
 .converter{
   width: 400px;

@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="images/therm.png">    
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/thermometer.png">    
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Temperature converter that converts celcius to fahrenheit and vice versa.">
+    <meta name="author" content="Grey Chattaway">
+    <meta name="keywords" content="celcius, fahrenheit, degrees, temperature, converter">
     <title>Temperature Converter Page</title>
-  </head>
-  <body>
+</head>
+<body>
 	   <br>
-     <br>  
-     <br>
      <br>
       <br>
      <br>
   	<div class="container">
+      <div class="title">
+        <h1>Temperature Converter</h1>
+      </div>
   		<div class="Thermometer">
-  			<img class="image" src="images/therm.png" alt="Thermometer" width="160" height="160">
+  			<img class="image" src="images/thermometer.png" alt="A black cartoon of a thermometer" width="180" height="180">
   		</div>
   		<div class="converter">
-    		<form id="tempCalc" onsubmit="calculateTemp(); return false">
-   			<label for="temp">Please enter a temperature:</label> <br>
-   			<input name="temp" id="temp" type="number"> 
-   			<select name="temp_diff" id="temp_diff">
+    		<form id="tempCalc" onsubmit="calculateTemperature(); return false">
+   			<label for="temperatureInput">Please enter a temperature:</label> <br>
+   			<input name="textInput1" id="temperatureInput" type="number"> 
+   			<select name="dropDown1" id="unitSelection">
       		<option value="1">°Celsius</option>
       		<option value="2">°Fahrenheit</option>
    			</select> <br>
-   			<input name="temp" type="submit" value="Convert"> <br>
+   			<input name="button1" type="submit" value="Convert"> <br>
    			<span id="resultContainer"></span>
 			</form>
 		</div>
+  </div>
     <script src="script.js"></script>
-  </body>
+</body>
 </html>

@@ -9,5 +9,5 @@ function myFunction() {
 
 // treats
 function myFunction() {
-  alert("Thank you but I am on a diet! :3");
+  alert("Thank you :3");
 }

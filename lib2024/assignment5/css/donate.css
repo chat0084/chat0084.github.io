@@ -2,6 +2,10 @@ Body {
   background-color: #fab1a0;
   font-family: 'Fjalla One', Impact, Arial, sans-serif;
   font-size: 35px;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
 }
 
 /* nav bar */
@@ -362,4 +366,42 @@ p {
   font-weight: bold;
   text-decoration: underline;
   font-style: normal;
+}
+
+/*button*/
+.clickme {
+  background-color: orange;
+  border-radius: 2px;
+  border-width: 0;
+  color: #ffeaa7;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #fab1a0;
+  font-size: 20px;
+  padding: 2px;
+  font-family: 'Montserrat', sans-serif;
+  color: #5C5C5C;
+}
+.sig {
+  text-align: left;
+  font-size: 20px;
 }
