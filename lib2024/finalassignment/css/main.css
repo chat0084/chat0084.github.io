@@ -60,7 +60,7 @@ img:hover {
           transform-origin: left top;
         }
         .confetti:nth-child(1) {
-          background-color: #f2d74e; left: 10%; animation-delay: 0;
+          background-color: #f2d74e; left: 10%; animation-delay: -1s;
         }
         .confetti:nth-child(2) {
           background-color: #95c3de; left: 20%; animation-delay: -5s;
